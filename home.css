@@ -1,0 +1,215 @@
+body {
+    padding: 0 40px;
+}
+
+.banner {
+    background-color: #6e94c1;
+    padding: 80px 64px 0 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.banner_content {
+
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+
+}
+
+.banner_content h1,
+.banner_content p {
+    color: white;
+}
+
+.banner_content p {
+    margin-bottom: 65px;
+}
+
+.banner-header-text {
+    font-size: 64px;
+    margin-bottom: 45px;
+}
+
+.banner_content .search_block {
+    width:100% ;
+    margin-bottom: 55px;
+}
+
+.banner_content .search_block input {
+    padding: 20px 10px;
+}
+
+.banner_content .search_block i {
+    top: 25px;
+    right: 15%;
+}
+
+.banner_content .search_block input,
+.banner_content .search_block i {
+    font-size: 20px;
+}
+
+.banner-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 90px;
+}
+
+
+.banner-preview {
+    width: 50%;
+}
+.banner-preview img {
+    max-width: 100%;
+}
+
+/*.popular-course {*/
+/*    background-color: #F72585;*/
+/*    display: flex;*/
+/*    width: 12%;*/
+/*    border-radius: 10px;*/
+/*}*/
+
+/*.popular-course-text {*/
+/*    max-width: 10%;*/
+/*}*/
+
+
+.animate-charcter
+{
+    background-image: linear-gradient(
+            -225deg,
+            #231557 0%,
+            #8971a2 29%,
+            #333132 67%,
+            #545450 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 15px;
+    margin-bottom: 45px;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+.course-categories {
+    display: flex;
+    text-transform: uppercase;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 35px;
+
+}
+.section-course-header {
+    margin-bottom: 5%;
+}
+
+.course-categories p {
+    color: #AAAA;
+}
+.category-btn-active {
+    background-color: #F72585;
+    color: white !important;
+
+
+}
+
+.trends p.category-btn-active {
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 15px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.section-statistics {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    width: 110%;
+}
+
+.section-statistics i {
+    font-size: 30px;
+    color: deeppink;
+}
+
+.blog {
+    margin-bottom: 80px;
+}
+.blog h3{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+
+}
+
+.blog-posts{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blog-posts .post-card {
+    width: 30%;
+}
+.post-card img {
+    width: 100%;
+
+}
+
+.post-card p {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.post-card .posted-date {
+    color: #545450;
+    font-family: "Droid Sans Mono";
+}
+
+.post-card .post-theme {
+    color: #1c3554;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.post-card .post-first-line {
+    font-family: "Times New Roman";
+}
+
+.post-card .read-more {
+    background-color: #F72585;
+    color: white;
+    border-radius: 10px;
+    width: 70px;
+    text-align: center;
+}
+
